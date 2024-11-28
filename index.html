@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">NISHANT</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#researchpaper">Research</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Nishant Behera</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Research</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/NishantProfilePic.jpg" alt="Nishant Behera profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nishant Behera</h1>
+        <p class="section__text__p2">Ph.D. Scholar</p>
+        <div class="btn-container">
+          
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedinlogo.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/nishantbehera/'"
+          />
+          <img
+            src="./assets/orcid logo.png"
+            alt="My Orcid profile"
+            class="icon"
+            onclick="location.href='https://orcid.org/0009-0005-5758-0047'"
+          />
+          <img
+            src="./assets/googlescholar.jpg"
+            alt="My Google Scholar profile"
+            class="icon"
+            onclick="location.href='https://scholar.google.com/citations?user=TN2R73kAAAAJ&hl=en&oi=ao'"
+          />
+          <img
+            src="./assets/researchgate.jpg"
+            alt="My Research Gate profile"
+            class="icon"
+            onclick="location.href='https://www.researchgate.net/profile/Nishant-Behera-3'"
+        />
+        </div>
+      </div>
+
+
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Profile_2nd.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <br />
+              <h3>Ph.D. (Environmental Science & Engineering) - Ongoing</h3>
+              <p>Indian Institute of Technology Bombay
+              <h3>M.Tech. (Environmental Engineering)</h3>
+              <p>Indian Institute of Technology Guwahati
+              <h3>B.Tech. (Civil Engineering)</h3>
+              <p>Veer Surendra Sai University of Technology
+              
+            </div>
+          </div>
+          <div class="text-container" style="text-align: justify;">
+            <p>
+               I am Nishant Behera, a Ph.D. scholar in the Environmental Science and 
+               Engineering Department (ESED) at IIT Bombay, where my research focuses
+               on air quality forecasting. My work combines machine learning techniques 
+               with advanced chemical transport models to predict air quality in real time, 
+               aiming to enhance environmental monitoring and protect public health. 
+               Through my research, I am exploring how these models can be applied to 
+               predict the concentrations of air pollutants under varying atmospheric 
+               conditions. This interdisciplinary approach blends data-driven methodologies 
+               with physical models to comprehensively understand air pollution dynamics. 
+               Additionally, I am engaged in projects related to air pollution control, 
+               environmental sustainability, and the design of engineering systems that 
+               mitigate environmental impacts.
+              
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#researchpaper'"
+      />
+
+    </section>
+    <section id="experience" style="margin-top: 150px;">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Weather Research Forecasting (WRF)</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>WRF-Chem</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>High Performance Computing</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                </div>
+              </article>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+
+      <section>
+      <section id="researchpaper">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Research Papers</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/atmospheric Pollution Research.jpg"
+                  alt="Research Paper 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title" style="font-size: 0.9em;">
+                Understanding meteorological factors influencing heavy air pollution in Guwahati, India
+              </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.sciencedirect.com/science/article/pii/S1309104224003027'"
+                >
+                  Link to Paper
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      
+
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:scholar2606@gmail.com">scholar2606@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/nishantbehera/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#researchpaper">Research</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Nishant Behera. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
